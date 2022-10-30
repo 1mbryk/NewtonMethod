@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E630AAD5290F02150013EF9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E630AAD4290F02150013EF9E /* main.cpp */; };
+		E630AADE290F08540013EF9E /* GaussMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E630AADC290F08540013EF9E /* GaussMethod.cpp */; };
+		E630AAE2290F0B620013EF9E /* Function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E630AAE0290F0B620013EF9E /* Function.cpp */; };
+		E630AAE5290F1C2C0013EF9E /* OtherFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E630AAE3290F1C2C0013EF9E /* OtherFunctions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,14 @@
 /* Begin PBXFileReference section */
 		E630AAD1290F02150013EF9E /* NewtonPolynomial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NewtonPolynomial; sourceTree = BUILT_PRODUCTS_DIR; };
 		E630AAD4290F02150013EF9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E630AADB290F071D0013EF9E /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		E630AADC290F08540013EF9E /* GaussMethod.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GaussMethod.cpp; sourceTree = "<group>"; };
+		E630AADD290F08540013EF9E /* GaussMethod.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GaussMethod.hpp; sourceTree = "<group>"; };
+		E630AADF290F08A40013EF9E /* Constants.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Constants.hpp; sourceTree = "<group>"; };
+		E630AAE0290F0B620013EF9E /* Function.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Function.cpp; sourceTree = "<group>"; };
+		E630AAE1290F0B620013EF9E /* Function.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Function.hpp; sourceTree = "<group>"; };
+		E630AAE3290F1C2C0013EF9E /* OtherFunctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OtherFunctions.cpp; sourceTree = "<group>"; };
+		E630AAE4290F1C2C0013EF9E /* OtherFunctions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OtherFunctions.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				E630AAD4290F02150013EF9E /* main.cpp */,
+				E630AAE3290F1C2C0013EF9E /* OtherFunctions.cpp */,
+				E630AAE4290F1C2C0013EF9E /* OtherFunctions.hpp */,
+				E630AAE0290F0B620013EF9E /* Function.cpp */,
+				E630AAE1290F0B620013EF9E /* Function.hpp */,
+				E630AADB290F071D0013EF9E /* main.hpp */,
+				E630AADC290F08540013EF9E /* GaussMethod.cpp */,
+				E630AADD290F08540013EF9E /* GaussMethod.hpp */,
+				E630AADF290F08A40013EF9E /* Constants.hpp */,
 			);
 			path = NewtonPolynomial;
 			sourceTree = "<group>";
@@ -119,6 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E630AADE290F08540013EF9E /* GaussMethod.cpp in Sources */,
+				E630AAE2290F0B620013EF9E /* Function.cpp in Sources */,
+				E630AAE5290F1C2C0013EF9E /* OtherFunctions.cpp in Sources */,
 				E630AAD5290F02150013EF9E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
